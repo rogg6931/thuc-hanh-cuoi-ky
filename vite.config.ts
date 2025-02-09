@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/thuc-hanh-cuoi-ky/",
 })
