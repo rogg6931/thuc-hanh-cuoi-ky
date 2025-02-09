@@ -1,0 +1,258 @@
+@import "tailwindcss";
+
+:root {
+    font-family: "JetBrains Mono";
+    color: var(--color-zinc-950);
+    --font-size-desc: 0.9rem;
+    --font-size-content: .95rem;
+    --font-size-date: .9rem;
+    --size-icon-info: 30px;
+    --font-percent: 1.1rem;
+    user-select: none;
+    --color-theme-light: white;
+    scroll-behavior: smooth;
+    --bg-dark: #191919;
+    --bg-sub-dark: #252525;
+    --color-dark: #ebebeb;
+}
+
+body{
+    background: #f5f5f5;
+}
+
+/* Dark mode */
+body.dark {
+    background: var(--bg-dark);
+    color: var(--color-dark);
+}
+
+.dark #main-menu{
+    background: var(--bg-sub-dark);
+    color: #F5F5F5;
+}
+
+.dark .bg-cv{
+    background: var(--bg-sub-dark);
+}
+
+.dark .bg-items-cv{
+    background: var(--bg-sub-dark);
+}
+
+.light #desc-info:hover{
+    background: var(--color-gray-200);
+}
+
+.dark #desc-info{
+    background: var(--bg-dark);
+}
+
+.dark .bg-items-cv:hover, #desc-info:hover{
+    background: var(--color-zinc-700);
+}
+
+.dark #cv-style{
+    background: var(--bg-dark);
+}
+
+.dark #socials-style, .dark .size-icon-info{
+    background: var(--bg-sub-dark);
+}
+
+.dark #socials-style:hover, .dark .size-icon-info:hover{
+    background: var(--color-zinc-600);
+}
+
+.dark .desc{
+    color: var(--color-gray-400);
+}
+
+.dark .size-img-exp{
+    background: #f5f5f5;
+    border-radius: 50%;
+}
+
+.container{
+    width: 1200px;
+    margin: 110px auto;
+}
+
+.bg-header {
+    background: var(--color-theme-light);
+}
+
+.bg-home{
+    background: url(../assets/images/bg-home.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.btn{
+    border: 1px solid;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: var(--text-3xl);
+}
+
+.desc {
+    font-size: var(--font-size-desc);
+    font-style: italic;
+}
+
+.font-content{
+    font-size: var(--font-size-content);
+}
+
+.font-date{
+    font-size: var(--font-size-date);
+}
+
+.size-img-exp{
+    max-height: 64px;
+    max-width: 64px;
+}
+
+.size-img-skills{
+    max-width: 16px;
+    max-height: 16px;
+}
+
+.bg-cv{
+    background: var(--color-zinc-100);
+}
+
+.size-icon-info{
+    font-size: var(--size-icon-info);
+}
+
+.font-percent{
+    font-size: var(--font-percent);
+}
+
+.bg-items-cv{
+    background: var(--color-gray-200);
+}
+
+.bg-items-cv:hover {
+    background: var(--color-slate-300);
+}
+
+.dark .dropdown-menu{
+    background: var(--color-zinc-800);
+    color: var(--color-gray-100);
+}
+
+.text-30{
+    color: var(--text-red-400);
+}
+
+.text-50{
+    color: var(--text-yellow-500);
+}
+
+.text-80{
+    color: var(--text-emerald-500);
+}
+
+.text-100{
+    color: var(--text-blue-500);
+}
+
+.grid-item-info>span:nth-child(n+3){
+    grid-column: span 2;
+}
+
+.dark input, .dark textarea{
+    background: var(--color-gray-700);
+}
+
+.form-contact{
+    display: grid;
+    grid-template-areas:
+        "lastName firstName"
+        "email email"
+        "phone phone"
+        "message message"
+        "button button";
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-first-name{
+    grid-area: firstName;
+}
+
+.grid-last-name{
+    grid-area: lastName;
+}
+
+.grid-email{
+    grid-area: email;
+}
+
+.grid-phone{
+    grid-area: phone;
+}
+
+.grid-message{
+    grid-area: message;
+}
+
+.grid-button{
+    grid-area: button;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-weight: 600;
+    position: relative;
+}
+
+label::after{
+    content: '*';
+    color: var(--color-red-400);
+    margin: 0 3px;
+    position: absolute;
+    top: -3px;
+}
+
+input, textarea{
+    outline: 1px solid var(--color-gray-400);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 12px;
+    background: white;
+}
+
+input:focus, textarea:focus{
+    outline: 2px solid var(--color-sky-500);
+}
+
+input:invalid, textarea:invalid{
+    outline-color: var(--color-red-400);
+}
+
+input::placeholder, textarea::placeholder{
+    font-style: italic;
+    color: var(--color-gray-400);
+}
+
+.error{
+    color: var(--color-red-400);
+}
+
+.dropdown-menu{
+    position: absolute;
+    right: 0;
+    transform: translate(35%);
+    background: var(--color-gray-100);
+    border: 1px solid var(--color-gray-200);
+    color: var(--color-zinc-800);
+}
