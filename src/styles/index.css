@@ -87,6 +87,13 @@ body.dark {
     background-position: center center;
 }
 
+.avt{
+    background: url(../assets/images/color.png);
+    background-size: cover;
+    height: calc(682px/1.67);
+    background-position: center center;
+}
+
 .btn{
     border: 1px solid;
     padding: 15px 30px;

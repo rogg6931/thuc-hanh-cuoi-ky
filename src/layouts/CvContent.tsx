@@ -17,7 +17,7 @@ const CvContent = () => {
         <React.Fragment>
             <div className="flex"> 
                 {/* Left */}
-                <div className="basis-1/3 border-r border-gray-300">
+                <div className="basis-1/3 border-r border-gray-300 h-[682]">
                     {/* thong tin - Info.tsx - PersonProps */}
                     <Person />
                     {/* socials */}

@@ -6,17 +6,17 @@ const Frameworks = () => {
     const frameWork = [
         {
             progress: <ProgressBar value={50} />,
-            logo: '/src/assets/images/react.png',
+            logo: `${import.meta.env.BASE_URL}src/assets/images/react.png`,
             desc: 'ReactJS',
         },
         {
             progress: <ProgressBar value={60} />,
-            logo: '/src/assets/images/tailwind.png',
+            logo: `${import.meta.env.BASE_URL}src/assets/images/tailwind.png`,
             desc: 'Tailwind',
         },
         {
             progress: <ProgressBar value={60} />,
-            logo: '/src/assets/images/bootstrap.png',
+            logo: `${import.meta.env.BASE_URL}src/assets/images/bootstrap.png`,
             desc: 'Bootstrap',
         },
     ]

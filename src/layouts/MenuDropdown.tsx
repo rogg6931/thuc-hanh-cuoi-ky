@@ -26,7 +26,7 @@ const MenuDropdown = () => {
         <React.Fragment>
             <menu className="relative" ref={dropdownRef} >
                 {/* avatar */}
-                <img alt="avatar" src='../../src/assets/images/color.png' className="outline outline-gray-300 size-10 rounded-full cursor-pointer hover:outline-sky-300"  onClick={() => setIsOpen((prev) => !prev)} onMouseEnter={() => setIsOpen(true)} />
+                <img alt="avatar" src={`${import.meta.env.BASE_URL}src/assets/images/color.png`} className="outline outline-gray-300 size-10 rounded-full cursor-pointer hover:outline-sky-300"  onClick={() => setIsOpen((prev) => !prev)} onMouseEnter={() => setIsOpen(true)} />
 
                 {/* dropdown menu */}
                 {isOpen && (

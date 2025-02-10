@@ -6,22 +6,22 @@ const ProgramLangs = () => {
     const prog = [
         {
             progress: <ProgressBar value={60} />,
-            logo: '/src/assets/images/html.png',
+            logo: `${import.meta.env.BASE_URL}src/assets/images/html.png`,
             desc: 'HTML5',
         },
         {
             progress: <ProgressBar value={60} />,
-            logo: '/src/assets/images/css.png',
+            logo: `${import.meta.env.BASE_URL}src/assets/images/css.png`,
             desc: 'CSS3',
         },
         {
             progress: <ProgressBar value={50} />,
-            logo: '/src/assets/images/javascript.png',
+            logo: `${import.meta.env.BASE_URL}src/assets/images/javascript.png`,
             desc: 'JavaScript',
         },
         {
             progress: <ProgressBar value={50} />,
-            logo: '/src/assets/images/typescript.png',
+            logo: `${import.meta.env.BASE_URL}src/assets/images/typescript.png`,
             desc: 'TypeScript',
         },
         {

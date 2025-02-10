@@ -8,9 +8,10 @@ const Person = () => {
     
     return (
         <React.Fragment>
-            <div className="text-center ">
+            <div className="text-center">
                 {/* avatar */}
-                <img src={person.avatar} alt="Avatar" className="object-cover" style={{clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)'}} />
+                {/* <img src={person.avatar} alt="Avatar" className="object-cover" style={{clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)'}} /> */}
+                <div className="avt" style={{clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 100%)'}}></div>
 
                 {/* thong tin */}
                 <span className="block my-4">
