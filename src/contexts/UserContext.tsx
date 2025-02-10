@@ -30,7 +30,7 @@ export const user: UserData = {
     phone: '0792966931',
     classRoom: 'C2405L1-ON',
     desc: 'Học hỏi - chăm chỉ - nỗ lực - trách nhiệm. Cái nào khó quá thì ta copy paste.',
-    avatar: '../../src/assets/images/color.png',
+    avatar: '/src/assets/images/color.png',
     contacts: {
         email: 'https://www.gmail.com',
         facebook: 'https://www.facebook.com/dh.6931',

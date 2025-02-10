@@ -4,7 +4,7 @@ import { FaGraduationCap, FaRegCalendar } from "react-icons/fa";
 const Education = () => {
     const education = [
         {
-            logo: '../../src/assets/images/logo-itc.png',
+            logo: '/src/assets/images/logo-itc.png',
             college: 'Cao đẳng Công Nghệ Thông Tin Tp.HCM',
             iconCourse: <FaGraduationCap className="mr-1" />,
             course: 'Tin học ứng dụng',
@@ -12,7 +12,7 @@ const Education = () => {
             day: '09/2019 ~ 05/2021'
         },
         {
-            logo: '../../src/assets/images/aptech.png',
+            logo: '/src/assets/images/aptech.png',
             college: 'Aptech Việt Nam',
             iconCourse: <FaGraduationCap className="mr-1" />,
             course: 'CPISM',

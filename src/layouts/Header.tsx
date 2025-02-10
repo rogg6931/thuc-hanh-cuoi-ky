@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router";
 import MenuDropdown from "./MenuDropdown";
-import ModeDropdown from "../components/ModeDropdown";
 import AuthContext from "../contexts/AuthContext";
+import ModeDropdown from "../components/ModeDropdown";
 
 const Header = () => {
     const navigate = useNavigate();
@@ -47,7 +47,7 @@ const Header = () => {
             <nav id="main-menu" className={`flex justify-around items-center fixed top-0 size-full h-fit z-9 drop-shadow-xs ${isHome ? 'bg-transparent text-zinc-100' : 'bg-header'}`}>
                 {/* Logo */}
                 <div className="place-items-center">
-                    <img src="../../src/assets/images/logo-chucmungnammoi.png" alt="Chuc mung nam moi" className="bg-cover h-16 cursor-pointer" 
+                    <img src="/src/assets/images/logo-chucmungnammoi.png" alt="Chuc mung nam moi" className="bg-cover h-16 cursor-pointer" 
                     onClick={() => navigate('/')} />
                 </div>
 

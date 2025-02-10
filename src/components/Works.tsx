@@ -5,7 +5,7 @@ import { GrUserManager } from "react-icons/gr";
 const Works = () => {
     const works = [
         {
-            logo: '../../src/assets/images/image.png',
+            logo: '/src/assets/images/image.png',
             company: 'CyberCafé Cao Nguyên Xanh',
             iconJob: <GrUserManager className="mr-1" />,
             job: 'Kinh doanh tại nhà',
@@ -13,7 +13,7 @@ const Works = () => {
             day: '05/2014 - 12/2017'
         },
         {
-            logo: '../../src/assets/images/shopeefood-logo.png',
+            logo: '/src/assets/images/shopeefood-logo.png',
             company: 'Công ty cổ phần Foody',
             iconJob: <FaMotorcycle className="mr-1" />,
             job: 'Giao đồ ăn',
@@ -21,7 +21,7 @@ const Works = () => {
             day: '03/2018 - 03/2024'
         },
         {
-            logo: '../../src/assets/images/gamehome.png',
+            logo: '/src/assets/images/gamehome.png',
             company: 'Gamehome Esports Complex',
             iconJob: <GrUserManager className="mr-1" />,
             job: 'Quản lý - phục vụ',

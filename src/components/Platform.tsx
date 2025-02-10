@@ -6,7 +6,7 @@ const Platform = () => {
     const platForm = [
         {
             progress: <ProgressBar value={60} />,
-            logo: '../../src/assets/images/wp.png',
+            logo: '/src/assets/images/wp.png',
             desc: 'WordPress',
         },
     ]

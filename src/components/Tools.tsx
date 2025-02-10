@@ -6,22 +6,22 @@ const Tools = () => {
     const tool = [
         {
             progress: <ProgressBar value={70} />,
-            logo: '../../src/assets/images/vscode.png',
+            logo: '/src/assets/images/vscode.png',
             desc: 'VS Code',
         },
         {
             progress: <ProgressBar value={60} />,
-            logo: '../../src/assets/images/github.png',
+            logo: '/src/assets/images/github.png',
             desc: 'Github',
         },
         {
             progress: <ProgressBar value={65} />,
-            logo: '../../src/assets/images/figma.png',
+            logo: '/src/assets/images/figma.png',
             desc: 'Figma',
         },
         {
             progress: <ProgressBar value={50} />,
-            logo: '../../src/assets/images/vite.png',
+            logo: '/src/assets/images/vite.png',
             desc: 'Vite',
         },
     ]
